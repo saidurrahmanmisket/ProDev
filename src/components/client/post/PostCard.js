@@ -9,7 +9,7 @@ const PostCard = ({ item }) => {
     <>
       <div className="postCardBody">
         <div className="postCardImage">
-          <img src={image} />
+          <img src={image} alt='images' />
         </div>
         <div className="postCardTitle">
           <h3>{title}</h3>
