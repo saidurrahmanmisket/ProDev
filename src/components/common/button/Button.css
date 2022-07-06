@@ -1,0 +1,15 @@
+.buttonCom{
+  border: 2px solid rgb(255, 105, 105) !important;
+  /* color:  rgb(255, 105, 105) !important; */
+  background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 25px ; 
+    font-size: larger ;
+}
+
+
+.buttonCom:hover{
+  background-color: rgb(255, 105, 105) ;
+  color: #130024;
+  transition: 599ms;
+}

@@ -1,0 +1,25 @@
+*{
+    color: #dec0f1;
+}
+.HeroImg{
+    /* max-width: 800px; */
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    
+}
+.heroH1{
+    font-size: 65px !important;
+}
+.sliderContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sliderText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px ;  
+}
+
