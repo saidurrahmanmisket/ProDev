@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "../../heroSection/HeroSection";
+// import HeroSection from "../../heroSection/HeroSection";
 import NavBar from "../../navBar/NavBar";
 
 const SinglePost = () => {

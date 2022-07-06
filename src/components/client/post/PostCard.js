@@ -19,7 +19,7 @@ const PostCard = ({ item }) => {
         </div>
         <div className="postCardInfo">
           <div className="avatar">
-            <img src={avatar} />
+            <img src={avatar} alt='myimg' />
           </div>
           <div className="cartInfoText">
             <h4>{author}</h4>

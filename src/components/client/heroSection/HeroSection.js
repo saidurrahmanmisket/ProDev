@@ -5,7 +5,7 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 
 
 
-import React, { useRef, useState } from "react";
+// import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

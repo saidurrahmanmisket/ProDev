@@ -1,7 +1,7 @@
 import React from "react";
 import './DashBoard.css'
 import avatar from '../../../assets/image/png.png'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 //   import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -62,7 +62,7 @@ const DashBoard = () => {
               />
             </div>
             <div>
-              <img className="avatar" src={avatar} />
+              <img className="avatar" alt="avatttar" src={avatar} />
             </div>
                   </div>
                   <div className="dashBody">
