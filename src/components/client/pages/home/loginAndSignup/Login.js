@@ -13,7 +13,7 @@ const Login = () => {
         {/* <h1>This is Login page </h1> */}
         <div className="loginBody">
           <div className="loginLeft">
-            <img className="loginImage" src={image} />
+            <img className="loginImage" alt='login' src={image} />
           </div>
           <div className="loginRight">
             <div>
