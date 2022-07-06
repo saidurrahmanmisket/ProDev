@@ -10,6 +10,7 @@ import {
   faGauge,
 } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
+import Logo from "../logo/Logo";
 library.add(faCheckSquare, faCoffee, faGauge);
 
 const DashBoard = () => {
@@ -18,7 +19,8 @@ const DashBoard = () => {
       <div className="dashBoard">
         <div className="dashLeft">
           <NavLink className="dashLogo" to={"/home"}>
-            <h1 className="dashLogo">ProDev</h1>
+            {/* <h1 className="dashLogo">ProDev</h1> */}
+          <Logo />
           </NavLink>
           <p>Main</p>
           <ul>

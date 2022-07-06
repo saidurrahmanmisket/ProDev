@@ -16,7 +16,7 @@ function App() {
           <Route path='/home' element={<Home /> } />
           <Route path='/contact' element={<Home /> } />
           <Route path='/about' element={<Home /> } />
-          <Route path='/post' element={<SinglePost /> } />
+          <Route path='/post/:id' element={<SinglePost /> } />
           <Route path='/login' element={<Login /> } />
           <Route path='/signup' element={<SignUp /> } />
           <Route path='/dashboard' element={<DashBoard /> } />

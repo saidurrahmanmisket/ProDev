@@ -4,7 +4,7 @@ import avatar from '../../../assets/image/png.png'
 import Button from '../../common/button/Button'
 
 const PostCard = ({ item }) => {
-  const { image, title, author, date } = item;
+  const { image, title, author, date ,id } = item;
   return (
     <>
       <div className="postCardBody">
@@ -13,7 +13,7 @@ const PostCard = ({ item }) => {
         </div>
         <div className="postCardTitle">
           <h3>{title}</h3>
-          <NavLink to="/post">
+          <NavLink to={`/post/${id}`}>
             <Button text={"More...."} />{" "}
           </NavLink>
         </div>

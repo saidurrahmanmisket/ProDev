@@ -2,6 +2,8 @@ import React from "react";
 import {  Nav, Navbar as ReactNav } from "react-bootstrap";
 import style from "./style.module.css";
 import { NavLink } from "react-router-dom";
+import Logo from "../../common/logo/Logo";
+// import Logo from "../../common/logo/Logo";
 const NavBar = () => {
   return (
     <>
@@ -12,9 +14,10 @@ const NavBar = () => {
         variant="dark"
       >
         {/* <Container > */}
-        <ReactNav.Brand className={style.logoBrand} to="/">
+        {/* <ReactNav.Brand className={style.logoBrand} to="/">
           ProDev
-        </ReactNav.Brand>
+        </ReactNav.Brand> */}
+        <Logo />
         <ReactNav.Toggle aria-controls="responsive-navbar-nav" />
         <ReactNav.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
